@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F01C30671400025300639EB5 /* WelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01C30651400025300639EB5 /* WelcomeController.m */; };
+		F01C30681400025300639EB5 /* WelcomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01C30661400025300639EB5 /* WelcomeController.xib */; };
+		F0305EB513FEB6520041FC30 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = F0305EB213FEB6520041FC30 /* success.png */; };
+		F03985CF13FEF3090089B110 /* TextArea.png in Resources */ = {isa = PBXBuildFile; fileRef = F03985CE13FEF3090089B110 /* TextArea.png */; };
+		F03985D313FF10110089B110 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F03985D213FF10110089B110 /* bg.jpg */; };
+		F03985D713FF11490089B110 /* Creditos.m in Sources */ = {isa = PBXBuildFile; fileRef = F03985D513FF11490089B110 /* Creditos.m */; };
+		F03985D813FF11490089B110 /* Creditos.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03985D613FF11490089B110 /* Creditos.xib */; };
+		F0601DB713FEBCCB00ABFB77 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = F0601DB513FEBCCB00ABFB77 /* alert.png */; };
+		F0601DC313FECC6D00ABFB77 /* contactstabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = F0601DC213FECC6D00ABFB77 /* contactstabbar.png */; };
+		F0601DC513FECD9800ABFB77 /* prefbaricon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0601DC413FECD9800ABFB77 /* prefbaricon.png */; };
+		F0AFAEDA13FEDC4100269129 /* panictabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = F0AFAED913FEDC4100269129 /* panictabbar.png */; };
+		F0C9BE2513FE04EA000986CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9BE2413FE04EA000986CE /* UIKit.framework */; };
+		F0C9BE2713FE04EA000986CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9BE2613FE04EA000986CE /* Foundation.framework */; };
+		F0C9BE2913FE04EA000986CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9BE2813FE04EA000986CE /* CoreGraphics.framework */; };
+		F0C9BE2F13FE04EA000986CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C9BE2D13FE04EA000986CE /* InfoPlist.strings */; };
+		F0C9BE3113FE04EA000986CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9BE3013FE04EA000986CE /* main.m */; };
+		F0C9BE3513FE04EA000986CE /* ntalkappAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9BE3413FE04EA000986CE /* ntalkappAppDelegate.m */; };
+		F0C9BE3813FE04EA000986CE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C9BE3613FE04EA000986CE /* MainWindow.xib */; };
+		F0C9BE4013FE04EA000986CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9BE3F13FE04EA000986CE /* SenTestingKit.framework */; };
+		F0C9BE4113FE04EA000986CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9BE2413FE04EA000986CE /* UIKit.framework */; };
+		F0C9BE4213FE04EA000986CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9BE2613FE04EA000986CE /* Foundation.framework */; };
+		F0C9BE4313FE04EA000986CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9BE2813FE04EA000986CE /* CoreGraphics.framework */; };
+		F0C9BE4B13FE04EA000986CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0C9BE4913FE04EA000986CE /* InfoPlist.strings */; };
+		F0C9BE4D13FE04EA000986CE /* ntalkappTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F0C9BE4C13FE04EA000986CE /* ntalkappTests.h */; };
+		F0C9BE4F13FE04EA000986CE /* ntalkappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9BE4E13FE04EA000986CE /* ntalkappTests.m */; };
+		F0C9BE6013FE0831000986CE /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9BE5E13FE0831000986CE /* Contacts.m */; };
+		F0C9BE6113FE0831000986CE /* Contacts.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C9BE5F13FE0831000986CE /* Contacts.xib */; };
+		F0C9BE6A13FE0CD2000986CE /* Panic.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9BE6813FE0CD2000986CE /* Panic.m */; };
+		F0C9BE6B13FE0CD2000986CE /* Panic.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C9BE6913FE0CD2000986CE /* Panic.xib */; };
+		F0C9BE7313FE1733000986CE /* Prefferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9BE7113FE1733000986CE /* Prefferences.m */; };
+		F0C9BE7413FE1733000986CE /* Prefferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C9BE7213FE1733000986CE /* Prefferences.xib */; };
+		F0F575231400068700BD8DC8 /* ntalk.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F575221400068700BD8DC8 /* ntalk.png */; };
+		F0F5752514000CAF00BD8DC8 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F5752414000CAF00BD8DC8 /* table.png */; };
+		F0F5752914000DBC00BD8DC8 /* LoginWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5752714000DBC00BD8DC8 /* LoginWindow.m */; };
+		F0F5752A14000DBC00BD8DC8 /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F5752814000DBC00BD8DC8 /* LoginWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0C9BE4413FE04EA000986CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C9BE1713FE04EA000986CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C9BE1F13FE04EA000986CE;
+			remoteInfo = ntalkapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F01C30641400025300639EB5 /* WelcomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeController.h; sourceTree = "<group>"; };
+		F01C30651400025300639EB5 /* WelcomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeController.m; sourceTree = "<group>"; };
+		F01C30661400025300639EB5 /* WelcomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeController.xib; sourceTree = "<group>"; };
+		F0305EB213FEB6520041FC30 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		F03985CE13FEF3090089B110 /* TextArea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextArea.png; sourceTree = "<group>"; };
+		F03985D213FF10110089B110 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		F03985D413FF11490089B110 /* Creditos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creditos.h; sourceTree = "<group>"; };
+		F03985D513FF11490089B110 /* Creditos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creditos.m; sourceTree = "<group>"; };
+		F03985D613FF11490089B110 /* Creditos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Creditos.xib; sourceTree = "<group>"; };
+		F0601DB513FEBCCB00ABFB77 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		F0601DC213FECC6D00ABFB77 /* contactstabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactstabbar.png; sourceTree = "<group>"; };
+		F0601DC413FECD9800ABFB77 /* prefbaricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prefbaricon.png; sourceTree = "<group>"; };
+		F0AFAED913FEDC4100269129 /* panictabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panictabbar.png; sourceTree = "<group>"; };
+		F0C9BE2013FE04EA000986CE /* ntalkapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ntalkapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C9BE2413FE04EA000986CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0C9BE2613FE04EA000986CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0C9BE2813FE04EA000986CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0C9BE2C13FE04EA000986CE /* ntalkapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ntalkapp-Info.plist"; sourceTree = "<group>"; };
+		F0C9BE2E13FE04EA000986CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0C9BE3013FE04EA000986CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0C9BE3213FE04EA000986CE /* ntalkapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ntalkapp-Prefix.pch"; sourceTree = "<group>"; };
+		F0C9BE3313FE04EA000986CE /* ntalkappAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ntalkappAppDelegate.h; sourceTree = "<group>"; };
+		F0C9BE3413FE04EA000986CE /* ntalkappAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ntalkappAppDelegate.m; sourceTree = "<group>"; };
+		F0C9BE3713FE04EA000986CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F0C9BE3E13FE04EA000986CE /* ntalkappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ntalkappTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C9BE3F13FE04EA000986CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0C9BE4813FE04EA000986CE /* ntalkappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ntalkappTests-Info.plist"; sourceTree = "<group>"; };
+		F0C9BE4A13FE04EA000986CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0C9BE4C13FE04EA000986CE /* ntalkappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ntalkappTests.h; sourceTree = "<group>"; };
+		F0C9BE4E13FE04EA000986CE /* ntalkappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ntalkappTests.m; sourceTree = "<group>"; };
+		F0C9BE5D13FE0831000986CE /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		F0C9BE5E13FE0831000986CE /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		F0C9BE5F13FE0831000986CE /* Contacts.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Contacts.xib; sourceTree = "<group>"; };
+		F0C9BE6713FE0CD2000986CE /* Panic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Panic.h; sourceTree = "<group>"; };
+		F0C9BE6813FE0CD2000986CE /* Panic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Panic.m; sourceTree = "<group>"; };
+		F0C9BE6913FE0CD2000986CE /* Panic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Panic.xib; sourceTree = "<group>"; };
+		F0C9BE7013FE1733000986CE /* Prefferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefferences.h; sourceTree = "<group>"; };
+		F0C9BE7113FE1733000986CE /* Prefferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prefferences.m; sourceTree = "<group>"; };
+		F0C9BE7213FE1733000986CE /* Prefferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Prefferences.xib; sourceTree = "<group>"; };
+		F0F575221400068700BD8DC8 /* ntalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ntalk.png; sourceTree = "<group>"; };
+		F0F5752414000CAF00BD8DC8 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		F0F5752614000DBC00BD8DC8 /* LoginWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindow.h; sourceTree = "<group>"; };
+		F0F5752714000DBC00BD8DC8 /* LoginWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindow.m; sourceTree = "<group>"; };
+		F0F5752814000DBC00BD8DC8 /* LoginWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C9BE1D13FE04EA000986CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C9BE2513FE04EA000986CE /* UIKit.framework in Frameworks */,
+				F0C9BE2713FE04EA000986CE /* Foundation.framework in Frameworks */,
+				F0C9BE2913FE04EA000986CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C9BE3A13FE04EA000986CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C9BE4013FE04EA000986CE /* SenTestingKit.framework in Frameworks */,
+				F0C9BE4113FE04EA000986CE /* UIKit.framework in Frameworks */,
+				F0C9BE4213FE04EA000986CE /* Foundation.framework in Frameworks */,
+				F0C9BE4313FE04EA000986CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F01C30621400020400639EB5 /* LoggedIn */ = {
+			isa = PBXGroup;
+			children = (
+				F0C9BE5D13FE0831000986CE /* Contacts.h */,
+				F0C9BE5E13FE0831000986CE /* Contacts.m */,
+				F0C9BE6713FE0CD2000986CE /* Panic.h */,
+				F0C9BE6813FE0CD2000986CE /* Panic.m */,
+				F0C9BE7013FE1733000986CE /* Prefferences.h */,
+				F0C9BE7113FE1733000986CE /* Prefferences.m */,
+				F03985D413FF11490089B110 /* Creditos.h */,
+				F03985D513FF11490089B110 /* Creditos.m */,
+				F03985D613FF11490089B110 /* Creditos.xib */,
+				F0C9BE7213FE1733000986CE /* Prefferences.xib */,
+				F0C9BE6913FE0CD2000986CE /* Panic.xib */,
+				F0C9BE5F13FE0831000986CE /* Contacts.xib */,
+			);
+			name = LoggedIn;
+			sourceTree = "<group>";
+		};
+		F0C9BE1513FE04EA000986CE = {
+			isa = PBXGroup;
+			children = (
+				F0C9BE2A13FE04EA000986CE /* ntalkapp */,
+				F0C9BE4613FE04EA000986CE /* ntalkappTests */,
+				F0C9BE2313FE04EA000986CE /* Frameworks */,
+				F0C9BE2113FE04EA000986CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C9BE2113FE04EA000986CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C9BE2013FE04EA000986CE /* ntalkapp.app */,
+				F0C9BE3E13FE04EA000986CE /* ntalkappTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C9BE2313FE04EA000986CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C9BE2413FE04EA000986CE /* UIKit.framework */,
+				F0C9BE2613FE04EA000986CE /* Foundation.framework */,
+				F0C9BE2813FE04EA000986CE /* CoreGraphics.framework */,
+				F0C9BE3F13FE04EA000986CE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C9BE2A13FE04EA000986CE /* ntalkapp */ = {
+			isa = PBXGroup;
+			children = (
+				F0F5752B1400141C00BD8DC8 /* LoggedOut */,
+				F01C30621400020400639EB5 /* LoggedIn */,
+				F0C9BE3313FE04EA000986CE /* ntalkappAppDelegate.h */,
+				F0C9BE3413FE04EA000986CE /* ntalkappAppDelegate.m */,
+				F0C9BE3613FE04EA000986CE /* MainWindow.xib */,
+				F0C9BE2B13FE04EA000986CE /* Supporting Files */,
+			);
+			path = ntalkapp;
+			sourceTree = "<group>";
+		};
+		F0C9BE2B13FE04EA000986CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0F5752C1400143900BD8DC8 /* Images */,
+				F0C9BE2C13FE04EA000986CE /* ntalkapp-Info.plist */,
+				F0C9BE2D13FE04EA000986CE /* InfoPlist.strings */,
+				F0C9BE3013FE04EA000986CE /* main.m */,
+				F0C9BE3213FE04EA000986CE /* ntalkapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0C9BE4613FE04EA000986CE /* ntalkappTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C9BE4C13FE04EA000986CE /* ntalkappTests.h */,
+				F0C9BE4E13FE04EA000986CE /* ntalkappTests.m */,
+				F0C9BE4713FE04EA000986CE /* Supporting Files */,
+			);
+			path = ntalkappTests;
+			sourceTree = "<group>";
+		};
+		F0C9BE4713FE04EA000986CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C9BE4813FE04EA000986CE /* ntalkappTests-Info.plist */,
+				F0C9BE4913FE04EA000986CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0F5752B1400141C00BD8DC8 /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				F01C30641400025300639EB5 /* WelcomeController.h */,
+				F01C30651400025300639EB5 /* WelcomeController.m */,
+				F0F5752614000DBC00BD8DC8 /* LoginWindow.h */,
+				F0F5752714000DBC00BD8DC8 /* LoginWindow.m */,
+				F0F5752814000DBC00BD8DC8 /* LoginWindow.xib */,
+				F01C30661400025300639EB5 /* WelcomeController.xib */,
+			);
+			name = LoggedOut;
+			sourceTree = "<group>";
+		};
+		F0F5752C1400143900BD8DC8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F0F5752414000CAF00BD8DC8 /* table.png */,
+				F0F575221400068700BD8DC8 /* ntalk.png */,
+				F03985D213FF10110089B110 /* bg.jpg */,
+				F03985CE13FEF3090089B110 /* TextArea.png */,
+				F0AFAED913FEDC4100269129 /* panictabbar.png */,
+				F0601DC413FECD9800ABFB77 /* prefbaricon.png */,
+				F0601DC213FECC6D00ABFB77 /* contactstabbar.png */,
+				F0601DB513FEBCCB00ABFB77 /* alert.png */,
+				F0305EB213FEB6520041FC30 /* success.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C9BE1F13FE04EA000986CE /* ntalkapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C9BE5213FE04EA000986CE /* Build configuration list for PBXNativeTarget "ntalkapp" */;
+			buildPhases = (
+				F0C9BE1C13FE04EA000986CE /* Sources */,
+				F0C9BE1D13FE04EA000986CE /* Frameworks */,
+				F0C9BE1E13FE04EA000986CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ntalkapp;
+			productName = ntalkapp;
+			productReference = F0C9BE2013FE04EA000986CE /* ntalkapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0C9BE3D13FE04EA000986CE /* ntalkappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C9BE5513FE04EA000986CE /* Build configuration list for PBXNativeTarget "ntalkappTests" */;
+			buildPhases = (
+				F0C9BE3913FE04EA000986CE /* Sources */,
+				F0C9BE3A13FE04EA000986CE /* Frameworks */,
+				F0C9BE3B13FE04EA000986CE /* Resources */,
+				F0C9BE3C13FE04EA000986CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C9BE4513FE04EA000986CE /* PBXTargetDependency */,
+			);
+			name = ntalkappTests;
+			productName = ntalkappTests;
+			productReference = F0C9BE3E13FE04EA000986CE /* ntalkappTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C9BE1713FE04EA000986CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Itesm Campus Puebla";
+			};
+			buildConfigurationList = F0C9BE1A13FE04EA000986CE /* Build configuration list for PBXProject "ntalkapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0C9BE1513FE04EA000986CE;
+			productRefGroup = F0C9BE2113FE04EA000986CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C9BE1F13FE04EA000986CE /* ntalkapp */,
+				F0C9BE3D13FE04EA000986CE /* ntalkappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C9BE1E13FE04EA000986CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C9BE2F13FE04EA000986CE /* InfoPlist.strings in Resources */,
+				F0C9BE3813FE04EA000986CE /* MainWindow.xib in Resources */,
+				F0C9BE6113FE0831000986CE /* Contacts.xib in Resources */,
+				F0C9BE6B13FE0CD2000986CE /* Panic.xib in Resources */,
+				F0C9BE7413FE1733000986CE /* Prefferences.xib in Resources */,
+				F0305EB513FEB6520041FC30 /* success.png in Resources */,
+				F0601DB713FEBCCB00ABFB77 /* alert.png in Resources */,
+				F0601DC313FECC6D00ABFB77 /* contactstabbar.png in Resources */,
+				F0601DC513FECD9800ABFB77 /* prefbaricon.png in Resources */,
+				F0AFAEDA13FEDC4100269129 /* panictabbar.png in Resources */,
+				F03985CF13FEF3090089B110 /* TextArea.png in Resources */,
+				F03985D313FF10110089B110 /* bg.jpg in Resources */,
+				F03985D813FF11490089B110 /* Creditos.xib in Resources */,
+				F01C30681400025300639EB5 /* WelcomeController.xib in Resources */,
+				F0F575231400068700BD8DC8 /* ntalk.png in Resources */,
+				F0F5752514000CAF00BD8DC8 /* table.png in Resources */,
+				F0F5752A14000DBC00BD8DC8 /* LoginWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C9BE3B13FE04EA000986CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C9BE4B13FE04EA000986CE /* InfoPlist.strings in Resources */,
+				F0C9BE4D13FE04EA000986CE /* ntalkappTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0C9BE3C13FE04EA000986CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C9BE1C13FE04EA000986CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C9BE3113FE04EA000986CE /* main.m in Sources */,
+				F0C9BE3513FE04EA000986CE /* ntalkappAppDelegate.m in Sources */,
+				F0C9BE6013FE0831000986CE /* Contacts.m in Sources */,
+				F0C9BE6A13FE0CD2000986CE /* Panic.m in Sources */,
+				F0C9BE7313FE1733000986CE /* Prefferences.m in Sources */,
+				F03985D713FF11490089B110 /* Creditos.m in Sources */,
+				F01C30671400025300639EB5 /* WelcomeController.m in Sources */,
+				F0F5752914000DBC00BD8DC8 /* LoginWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C9BE3913FE04EA000986CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C9BE4F13FE04EA000986CE /* ntalkappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0C9BE4513FE04EA000986CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C9BE1F13FE04EA000986CE /* ntalkapp */;
+			targetProxy = F0C9BE4413FE04EA000986CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0C9BE2D13FE04EA000986CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C9BE2E13FE04EA000986CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0C9BE3613FE04EA000986CE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C9BE3713FE04EA000986CE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F0C9BE4913FE04EA000986CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C9BE4A13FE04EA000986CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0C9BE5013FE04EA000986CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0C9BE5113FE04EA000986CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0C9BE5313FE04EA000986CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ntalkapp/ntalkapp-Prefix.pch";
+				INFOPLIST_FILE = "ntalkapp/ntalkapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0C9BE5413FE04EA000986CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ntalkapp/ntalkapp-Prefix.pch";
+				INFOPLIST_FILE = "ntalkapp/ntalkapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0C9BE5613FE04EA000986CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ntalkapp.app/ntalkapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ntalkapp/ntalkapp-Prefix.pch";
+				INFOPLIST_FILE = "ntalkappTests/ntalkappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F0C9BE5713FE04EA000986CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ntalkapp.app/ntalkapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ntalkapp/ntalkapp-Prefix.pch";
+				INFOPLIST_FILE = "ntalkappTests/ntalkappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C9BE1A13FE04EA000986CE /* Build configuration list for PBXProject "ntalkapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C9BE5013FE04EA000986CE /* Debug */,
+				F0C9BE5113FE04EA000986CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C9BE5213FE04EA000986CE /* Build configuration list for PBXNativeTarget "ntalkapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C9BE5313FE04EA000986CE /* Debug */,
+				F0C9BE5413FE04EA000986CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C9BE5513FE04EA000986CE /* Build configuration list for PBXNativeTarget "ntalkappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C9BE5613FE04EA000986CE /* Debug */,
+				F0C9BE5713FE04EA000986CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C9BE1713FE04EA000986CE /* Project object */;
+}
