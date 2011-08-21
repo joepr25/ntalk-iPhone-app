@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Contacts : UIViewController <UITableViewDataSource>{
+@interface Contacts : UIViewController {
     
     IBOutlet UITableView *tv;
 }
