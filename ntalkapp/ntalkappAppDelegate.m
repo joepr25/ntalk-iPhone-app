@@ -18,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    RKClient* client = [RKClient clientWithBaseURL:@"http://restkit.org"];  
     /* ----------------------------------- Creación de panel de usuario ---------------------------------*/
     
     UIImageView *ntalk = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ntalk.png"]];

@@ -11,8 +11,9 @@
 #import "Panic.h"
 #import "Prefferences.h"
 #import "WelcomeController.h"
+#import <RestKit/RestKit.h>
 
-@interface ntalkappAppDelegate : NSObject <UIApplicationDelegate, PrefferencesDelegate, WelcomeControllerDelegate> {
+@interface ntalkappAppDelegate : NSObject <UIApplicationDelegate, PrefferencesDelegate, WelcomeControllerDelegate, RKRequestDelegate> {
     
     UINavigationController *login;
     UITabBarController *tabbar;
